@@ -37,6 +37,27 @@ footer{
     font-size:75%;
 }
 
+table, th, td{
+    border:2px solid #3399CC;
+    border-collapse:collapse;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: #b1e0f2;
+}
+
+th, td{
+    padding:0.5em;
+}
+
+td{
+    text-align:center;
+}
+
+.left{
+    text-align:left;
+}
+
 .resort{
     color:#5C7FA3;
     font-weight:bold;
